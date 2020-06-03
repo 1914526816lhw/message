@@ -54,7 +54,30 @@
             <artifactId>fastjson</artifactId>
             <version>1.2.58</version>
         </dependency>
+
+        <!--发送QQ邮件依赖-->
+        <!-- https://mvnrepository.com/artifact/javax.mail/mail -->
+        <dependency>
+            <groupId>javax.mail</groupId>
+            <artifactId>mail</artifactId>
+            <version>1.4</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/jaf/activation -->
+        <dependency>
+            <groupId>jaf</groupId>
+            <artifactId>activation</artifactId>
+            <version>1.0.2</version>
+        </dependency>
+        <dependency>
+            <groupId>com.sun.mail</groupId>
+            <artifactId>javax.mail</artifactId>
+            <version>1.6.2</version>
+        </dependency>
+
+
     </dependencies>
+
+
 
     <build>
         <plugins>
