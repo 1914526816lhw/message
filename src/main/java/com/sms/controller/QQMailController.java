@@ -3,7 +3,6 @@ package com.sms.controller;
 import com.alibaba.fastjson.JSONObject;
 import com.sms.service.QQMailService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Repository;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;
 
